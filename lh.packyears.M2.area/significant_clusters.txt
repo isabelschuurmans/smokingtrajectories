@@ -1,0 +1,5 @@
+variable	cluster	n_vertices	mean_area	mean_coefficient	mean_se	top_region1	top_region2	top_region3
+(Intercept)	1	146660	0.579508658991213	0.617400396532257	0.0491019891865882	superiorfrontal (8.30%, 100%)	precentral (7.32%, 100%)	superiorparietal (7.13%, 100%)
+AGEPARENT.x	1	1126	0.595115258584201	-0.00262450867396205	0.000703721250612934	superiorfrontal (100%, 9.25%)	NA	NA
+sex	1	146326	0.579355554543766	-0.065450107100448	0.00767180093906814	superiorfrontal (8.32%, 100%)	precentral (7.34%, 100%)	superiorparietal (7.15%, 100%)
+education_at_intake_groups	1	4946	0.591371177465589	0.0384000640364761	0.00976978010592889	rostralmiddlefrontal (82.88%, 56.59%)	superiorfrontal (15.83%, 6.43%)	caudalmiddlefrontal (0.89%, 1.18%)
