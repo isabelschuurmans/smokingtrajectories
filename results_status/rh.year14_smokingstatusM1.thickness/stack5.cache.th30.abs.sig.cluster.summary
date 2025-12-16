@@ -1,0 +1,61 @@
+# Cluster Growing Summary (mri_surfcluster)
+# $Id: mri_surfcluster.c,v 1.57.2.3 2016/11/17 18:19:42 zkaufman Exp $
+# $Id: mrisurf.c,v 1.781.2.6 2016/12/27 16:47:14 zkaufman Exp $
+# CreationTime 2025/12/16-16:38:25-GMT
+# cmdline mri_surfcluster.bin --in /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack5.p.mgh --csd /mnt/appl/tools/freesurfer/6.0.0/average/mult-comp-cor/fsaverage/rh/cortex/fwhm14/abs/th30/mc-z.csd --cwsig /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack5.cache.th30.abs.sig.cluster.mgh --vwsig /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack5.cache.th30.abs.sig.voxel.mgh --sum /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack5.cache.th30.abs.sig.cluster.summary --ocn /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack5.cache.th30.abs.sig.ocn.mgh --oannot /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack5.cache.th30.abs.sig.ocn.annot --annot aparc --cwpvalthresh 0.025 --o /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack5.cache.th30.abs.sig.masked.mgh --no-fixmni --surf white --mask /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/finalMask.mgh 
+# cwd /home/r042647/SmokingTraj
+# sysname  Linux
+# hostname kpsy0001l002
+# machine  x86_64
+# FixVertexAreaFlag 1
+# FixSurfClusterArea 1
+# 
+# Input      /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack5.p.mgh
+# Frame Number      0
+# srcsubj fsaverage
+# hemi rh
+# surface white
+# group_avg_surface_area 82167.6
+# group_avg_vtxarea_loaded 1
+# annot aparc
+# SUBJECTS_DIR /mnt/data/genr/mrdata/GenR_parent/bids/derivatives/freesurfer/6.0.0/qdecr/
+# SearchSpace_mm2 74595.6
+# SearchSpace_vtx 145437
+# Bonferroni 0
+# Minimum Threshold 3
+# Maximum Threshold infinity
+# Threshold Sign    abs
+# AdjustThreshWhenOneTail 1
+# CW PValue Threshold: 0.025 
+# Area Threshold    0 mm^2
+# CSD thresh  3.000000
+# CSD nreps    10000
+# CSD simtype  null-z
+# CSD contrast NA
+# CSD confint  90.000000
+# Overall max 29.3789 at vertex 13561
+# Overall min 0 at vertex 10
+# NClusters          20
+# FixMNI = 0
+# 
+# ClusterNo  Max   VtxMax   Size(mm^2)  MNIX   MNIY   MNIZ    CWP    CWPLow    CWPHi   NVtxs    WghtVtx   Annot
+   1       21.391  142467   3223.54     40.9  -69.4   37.6  0.00010  0.00000  0.00020   4946    32088.34  inferiorparietal
+   2       22.926  133986   3056.35     43.5    0.2   15.0  0.00010  0.00000  0.00020   7724    57289.68  precentral
+   3       27.110  133545   1956.63     48.5  -22.6   57.1  0.00010  0.00000  0.00020   4533    48101.84  postcentral
+   4       14.539    5771   1591.03     28.7  -17.0   68.7  0.00010  0.00000  0.00020   3413    23357.36  precentral
+   5        9.429  118178   1074.78     48.2   -8.1  -40.0  0.00010  0.00000  0.00020   1667     8531.60  inferiortemporal
+   6       15.936   51162    879.41     14.7   41.1   16.8  0.00010  0.00000  0.00020   1785    13691.77  superiorfrontal
+   7        8.756  150911    654.13     28.0  -51.5   63.4  0.00010  0.00000  0.00020   1390     6365.15  superiorparietal
+   8       19.044  129128    613.54     21.6  -49.4    1.1  0.00010  0.00000  0.00020   1391     9960.96  isthmuscingulate
+   9        6.529   24413    578.59     53.3  -50.0   -6.9  0.00010  0.00000  0.00020    870     4020.25  middletemporal
+  10       24.912   61213    560.91      4.6  -23.6   36.7  0.00010  0.00000  0.00020   1479    11258.12  posteriorcingulate
+  11       29.379   13561    509.01     12.1   16.5  -13.8  0.00010  0.00000  0.00020   1167    12137.85  medialorbitofrontal
+  12       11.158   20302    428.47     45.5   41.3  -12.3  0.00010  0.00000  0.00020    579     3384.55  parsorbitalis
+  13        6.420   60805    394.62     11.2   63.7   11.9  0.00010  0.00000  0.00020    529     2416.72  superiorfrontal
+  14       16.597   44552    360.72      6.2  -54.8   16.6  0.00010  0.00000  0.00020    783     5385.19  precuneus
+  15        6.548  104438    338.38     20.4  -72.3   43.7  0.00020  0.00000  0.00040    534     2338.48  superiorparietal
+  16        8.321   50336    319.11     58.1  -13.5   38.6  0.00020  0.00000  0.00040    853     4210.30  postcentral
+  17        9.287   48888    290.05     24.6   49.6   -2.1  0.00050  0.00020  0.00080    426     2394.38  rostralmiddlefrontal
+  18       10.210  114039    279.81     31.0  -22.1  -26.8  0.00050  0.00020  0.00080    532     3173.43  parahippocampal
+  19        8.108  152251    204.11     45.4   24.7   28.7  0.00870  0.00750  0.00990    342     1666.20  rostralmiddlefrontal
+  20        4.604  114297    167.82     15.7  -76.1   -7.9  0.02190  0.02000  0.02380    183      677.70  lingual
