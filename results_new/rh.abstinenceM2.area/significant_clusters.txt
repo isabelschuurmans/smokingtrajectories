@@ -1,0 +1,6 @@
+variable	cluster	n_vertices	mean_area	mean_coefficient	mean_se	top_region1	top_region2	top_region3
+(Intercept)	1	146598	0.582151067485069	0.622846181012447	0.0560283176739998	superiorfrontal (8.10%, 100%)	precentral (7.30%, 100%)	superiorparietal (6.97%, 100%)
+sex	1	146407	0.582181570327076	-0.0642054374264766	0.0086478302191979	superiorfrontal (8.11%, 100%)	precentral (7.31%, 100%)	superiorparietal (6.98%, 100%)
+ethnicity_group	1	794	0.525435419991525	-0.0366993542239821	0.0100553711695639	medialorbitofrontal (84.26%, 23.88%)	lateralorbitofrontal (15.74%, 2.87%)	NA
+education_at_intake_groups	1	1098	0.577068503062415	0.0208607821475938	0.00577249394866293	postcentral (53.19%, 6.39%)	precentral (44.26%, 4.54%)	parsopercularis (2.55%, 1.13%)
+education_at_intake_groups	2	557	0.55996184473793	0.0269384617203281	0.00771027032446444	superiorfrontal (100%, 4.69%)	NA	NA

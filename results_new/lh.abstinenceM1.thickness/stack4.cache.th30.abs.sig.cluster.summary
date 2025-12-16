@@ -1,0 +1,57 @@
+# Cluster Growing Summary (mri_surfcluster)
+# $Id: mri_surfcluster.c,v 1.57.2.3 2016/11/17 18:19:42 zkaufman Exp $
+# $Id: mrisurf.c,v 1.781.2.6 2016/12/27 16:47:14 zkaufman Exp $
+# CreationTime 2025/12/15-17:07:58-GMT
+# cmdline mri_surfcluster.bin --in /home/r042647/SmokingTraj/lh.abstinence.M1.thickness/stack4.p.mgh --csd /mnt/appl/tools/freesurfer/6.0.0/average/mult-comp-cor/fsaverage/lh/cortex/fwhm14/abs/th30/mc-z.csd --cwsig /home/r042647/SmokingTraj/lh.abstinence.M1.thickness/stack4.cache.th30.abs.sig.cluster.mgh --vwsig /home/r042647/SmokingTraj/lh.abstinence.M1.thickness/stack4.cache.th30.abs.sig.voxel.mgh --sum /home/r042647/SmokingTraj/lh.abstinence.M1.thickness/stack4.cache.th30.abs.sig.cluster.summary --ocn /home/r042647/SmokingTraj/lh.abstinence.M1.thickness/stack4.cache.th30.abs.sig.ocn.mgh --oannot /home/r042647/SmokingTraj/lh.abstinence.M1.thickness/stack4.cache.th30.abs.sig.ocn.annot --annot aparc --cwpvalthresh 0.025 --o /home/r042647/SmokingTraj/lh.abstinence.M1.thickness/stack4.cache.th30.abs.sig.masked.mgh --no-fixmni --surf white --mask /home/r042647/SmokingTraj/lh.abstinence.M1.thickness/finalMask.mgh 
+# cwd /home/r042647/SmokingTraj
+# sysname  Linux
+# hostname kpsy0001l002
+# machine  x86_64
+# FixVertexAreaFlag 1
+# FixSurfClusterArea 1
+# 
+# Input      /home/r042647/SmokingTraj/lh.abstinence.M1.thickness/stack4.p.mgh
+# Frame Number      0
+# srcsubj fsaverage
+# hemi lh
+# surface white
+# group_avg_surface_area 82220
+# group_avg_vtxarea_loaded 1
+# annot aparc
+# SUBJECTS_DIR /mnt/data/genr/mrdata/GenR_parent/bids/derivatives/freesurfer/6.0.0/qdecr/
+# SearchSpace_mm2 75250.4
+# SearchSpace_vtx 146650
+# Bonferroni 0
+# Minimum Threshold 3
+# Maximum Threshold infinity
+# Threshold Sign    abs
+# AdjustThreshWhenOneTail 1
+# CW PValue Threshold: 0.025 
+# Area Threshold    0 mm^2
+# CSD thresh  3.000000
+# CSD nreps    10000
+# CSD simtype  null-z
+# CSD contrast NA
+# CSD confint  90.000000
+# Overall max 16.4191 at vertex 76551
+# Overall min 0 at vertex 8
+# NClusters          16
+# FixMNI = 0
+# 
+# ClusterNo  Max   VtxMax   Size(mm^2)  MNIX   MNIY   MNIZ    CWP    CWPLow    CWPHi   NVtxs    WghtVtx   Annot
+   1       13.928   77756   1453.81    -39.2    3.9   12.3  0.00010  0.00000  0.00020   3735    23295.21  precentral
+   2       10.876  109880    822.74    -13.4   44.3   10.5  0.00010  0.00000  0.00020   1424     8970.44  superiorfrontal
+   3       16.419   76551    817.41    -45.4  -29.2   58.0  0.00010  0.00000  0.00020   2002    15344.16  postcentral
+   4        9.479   15617    814.73    -45.7   -6.6  -36.7  0.00010  0.00000  0.00020   1172     6091.01  inferiortemporal
+   5        7.842  145911    544.98    -28.5   45.9    9.1  0.00010  0.00000  0.00020    822     4210.92  rostralmiddlefrontal
+   6        8.362   84539    479.17    -35.8   32.1   11.4  0.00010  0.00000  0.00020    762     3937.30  rostralmiddlefrontal
+   7       11.064   74226    430.74    -34.8  -75.9   40.3  0.00010  0.00000  0.00020    747     4259.44  inferiorparietal
+   8        6.885  115233    319.57    -35.6  -17.6   65.8  0.00050  0.00020  0.00080    725     3490.30  precentral
+   9        9.372  122912    283.29    -16.2  -51.2    3.7  0.00150  0.00100  0.00200    746     4090.93  isthmuscingulate
+  10        9.845  160437    279.89    -29.6    4.7  -32.6  0.00190  0.00140  0.00250    613     3441.62  temporalpole
+  11        6.164   86656    275.42    -51.3  -33.0   -1.0  0.00190  0.00140  0.00250    645     2854.02  superiortemporal
+  12       10.059   20603    262.78    -27.5   28.3   -2.9  0.00210  0.00150  0.00270    679     3474.41  lateralorbitofrontal
+  13       11.332  107277    261.86     -3.9  -18.3   35.6  0.00220  0.00160  0.00280    717     4278.70  posteriorcingulate
+  14       10.723   49389    261.07    -10.9   11.4  -15.1  0.00220  0.00160  0.00280    573     3683.10  medialorbitofrontal
+  15        6.012   33834    206.11    -26.8  -94.6   13.2  0.00800  0.00690  0.00920    278     1170.51  lateraloccipital
+  16        5.184    4559    190.76    -32.2  -53.9   62.2  0.01170  0.01030  0.01310    415     1561.99  superiorparietal

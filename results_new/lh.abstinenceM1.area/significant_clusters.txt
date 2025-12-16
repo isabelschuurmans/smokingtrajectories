@@ -1,0 +1,3 @@
+variable	cluster	n_vertices	mean_area	mean_coefficient	mean_se	top_region1	top_region2	top_region3
+(Intercept)	1	146820	0.579683386255624	0.641503241297201	0.0426385389469214	superiorfrontal (8.30%, 100%)	precentral (7.32%, 100%)	superiorparietal (7.12%, 100%)
+sex	1	145083	0.579599981801794	-0.063238520266436	0.00848885502893996	superiorfrontal (8.39%, 100%)	precentral (7.40%, 100%)	postcentral (6.56%, 100%)

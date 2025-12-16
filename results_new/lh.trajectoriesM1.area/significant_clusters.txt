@@ -1,0 +1,8 @@
+variable	cluster	n_vertices	mean_area	mean_coefficient	mean_se	top_region1	top_region2	top_region3
+(Intercept)	1	145529	0.576623733376285	0.653250652384259	0.0253304505729579	superiorfrontal (8.37%, 100%)	precentral (7.38%, 100%)	superiorparietal (7.18%, 100%)
+smoking_trajectoriesB	1	466	0.608558670304407	0.0420393667747406	0.0124815544813008	inferiortemporal (92.06%, 9.72%)	middletemporal (7.94%, 0.83%)	NA
+AGEPARENT.x	1	1637	0.613066427696712	-0.00223328365526738	0.000632273669492012	lateraloccipital (74.4%, 19.09%)	fusiform (25.6%, 8.89%)	NA
+AGEPARENT.x	2	1456	0.567857558209161	-0.00173878390605851	0.000460958806058273	superiorfrontal (100%, 11.96%)	NA	NA
+AGEPARENT.x	3	968	0.573429644041865	-0.00274871125714353	0.000780092904917619	rostralmiddlefrontal (75.21%, 10.05%)	parstriangularis (21.38%, 10.12%)	parsopercularis (3.41%, 1.06%)
+AGEPARENT.x	4	1083	0.615584347337823	-0.00195112373956779	0.000515570849596651	fusiform (97.6%, 22.42%)	inferiortemporal (2.4%, 0.59%)	NA
+sex	1	145529	0.576623733376285	-0.0715315601051289	0.00523212064010926	superiorfrontal (8.37%, 100%)	precentral (7.38%, 100%)	superiorparietal (7.18%, 100%)

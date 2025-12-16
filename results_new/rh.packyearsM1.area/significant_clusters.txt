@@ -1,0 +1,4 @@
+variable	cluster	n_vertices	mean_area	mean_coefficient	mean_se	top_region1	top_region2	top_region3
+(Intercept)	1	146463	0.581441663241304	0.635654629370836	0.0356396942936255	superiorfrontal (8.11%, 100%)	precentral (7.31%, 100%)	superiorparietal (6.98%, 100%)
+packyears	1	1067	0.551363162156116	-0.00200050139573648	0.000532123766339366	fusiform (68.98%, 15.79%)	inferiortemporal (29.62%, 7.53%)	parahippocampal (1.41%, 0.86%)
+sex	1	146463	0.581441663241304	-0.0667961382789685	0.00734372136993421	superiorfrontal (8.11%, 100%)	precentral (7.31%, 100%)	superiorparietal (6.98%, 100%)

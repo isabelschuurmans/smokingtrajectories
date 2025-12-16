@@ -1,0 +1,9 @@
+stack_number	stack_name
+1	(Intercept)
+2	abstinence
+3	AGEPARENT.x
+4	sex
+5	bmi
+6	ethnicity_group
+7	INCOME_group
+8	education_at_intake_groups
