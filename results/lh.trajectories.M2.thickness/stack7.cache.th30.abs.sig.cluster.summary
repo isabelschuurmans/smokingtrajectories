@@ -1,0 +1,61 @@
+# Cluster Growing Summary (mri_surfcluster)
+# $Id: mri_surfcluster.c,v 1.57.2.3 2016/11/17 18:19:42 zkaufman Exp $
+# $Id: mrisurf.c,v 1.781.2.6 2016/12/27 16:47:14 zkaufman Exp $
+# CreationTime 2025/12/15-16:58:42-GMT
+# cmdline mri_surfcluster.bin --in /home/r042647/SmokingTraj/lh.trajectories.M2.thickness/stack7.p.mgh --csd /mnt/appl/tools/freesurfer/6.0.0/average/mult-comp-cor/fsaverage/lh/cortex/fwhm14/abs/th30/mc-z.csd --cwsig /home/r042647/SmokingTraj/lh.trajectories.M2.thickness/stack7.cache.th30.abs.sig.cluster.mgh --vwsig /home/r042647/SmokingTraj/lh.trajectories.M2.thickness/stack7.cache.th30.abs.sig.voxel.mgh --sum /home/r042647/SmokingTraj/lh.trajectories.M2.thickness/stack7.cache.th30.abs.sig.cluster.summary --ocn /home/r042647/SmokingTraj/lh.trajectories.M2.thickness/stack7.cache.th30.abs.sig.ocn.mgh --oannot /home/r042647/SmokingTraj/lh.trajectories.M2.thickness/stack7.cache.th30.abs.sig.ocn.annot --annot aparc --cwpvalthresh 0.025 --o /home/r042647/SmokingTraj/lh.trajectories.M2.thickness/stack7.cache.th30.abs.sig.masked.mgh --no-fixmni --surf white --mask /home/r042647/SmokingTraj/lh.trajectories.M2.thickness/finalMask.mgh 
+# cwd /home/r042647/SmokingTraj
+# sysname  Linux
+# hostname kpsy0001l002
+# machine  x86_64
+# FixVertexAreaFlag 1
+# FixSurfClusterArea 1
+# 
+# Input      /home/r042647/SmokingTraj/lh.trajectories.M2.thickness/stack7.p.mgh
+# Frame Number      0
+# srcsubj fsaverage
+# hemi lh
+# surface white
+# group_avg_surface_area 82220
+# group_avg_vtxarea_loaded 1
+# annot aparc
+# SUBJECTS_DIR /mnt/data/genr/mrdata/GenR_parent/bids/derivatives/freesurfer/6.0.0/qdecr/
+# SearchSpace_mm2 74750.7
+# SearchSpace_vtx 145312
+# Bonferroni 0
+# Minimum Threshold 3
+# Maximum Threshold infinity
+# Threshold Sign    abs
+# AdjustThreshWhenOneTail 1
+# CW PValue Threshold: 0.025 
+# Area Threshold    0 mm^2
+# CSD thresh  3.000000
+# CSD nreps    10000
+# CSD simtype  null-z
+# CSD contrast NA
+# CSD confint  90.000000
+# Overall max 35.9104 at vertex 48560
+# Overall min 0 at vertex 8
+# NClusters          20
+# FixMNI = 0
+# 
+# ClusterNo  Max   VtxMax   Size(mm^2)  MNIX   MNIY   MNIZ    CWP    CWPLow    CWPHi   NVtxs    WghtVtx   Annot
+   1       30.065   18233   5888.25    -42.5    2.6   11.4  0.00010  0.00000  0.00020  13079   100409.03  precentral
+   2       16.797   14987   2501.08    -38.4   31.5   17.8  0.00010  0.00000  0.00020   3878    28632.31  rostralmiddlefrontal
+   3       35.910   48560   1956.21    -48.0  -24.4   58.1  0.00010  0.00000  0.00020   4558    47606.29  postcentral
+   4       29.054  107326   1844.47    -11.6   17.0  -14.4  0.00010  0.00000  0.00020   3389    36051.60  medialorbitofrontal
+   5       16.931   47779   1761.26    -37.2  -72.9   40.5  0.00010  0.00000  0.00020   3484    21957.61  inferiorparietal
+   6       16.199   87840   1527.57    -21.7  -99.5   -5.3  0.00010  0.00000  0.00020   1988    13100.17  lateraloccipital
+   7       16.487  138041   1510.58    -31.5  -19.8   67.7  0.00010  0.00000  0.00020   3254    22156.29  precentral
+   8        5.776  111894    681.74    -50.9  -34.4   -0.5  0.00010  0.00000  0.00020   1491     6080.73  bankssts
+   9       17.516    6320    511.07     -4.4  -21.5   38.7  0.00010  0.00000  0.00020   1439     9227.99  posteriorcingulate
+  10        7.190    8555    462.76    -14.1  -91.4   -0.9  0.00010  0.00000  0.00020    577     2839.20  pericalcarine
+  11       10.137  133463    423.99     -5.6  -30.5   54.4  0.00010  0.00000  0.00020   1016     5041.33  paracentral
+  12       11.473  134221    369.88    -25.6   35.1   -8.5  0.00020  0.00000  0.00040    678     3825.04  lateralorbitofrontal
+  13       17.690   26349    340.81    -18.2  -50.9    2.3  0.00040  0.00020  0.00070    883     6801.20  isthmuscingulate
+  14       10.275    4956    295.36    -60.4  -14.3    1.9  0.00110  0.00070  0.00150    707     4085.96  superiortemporal
+  15        7.227   82511    278.88    -22.3   26.1   33.6  0.00190  0.00140  0.00250    599     2897.50  superiorfrontal
+  16        4.710    7094    275.17    -55.9  -47.6   -9.9  0.00190  0.00140  0.00250    432     1654.71  middletemporal
+  17        7.172   43453    259.95    -45.8  -42.5   22.7  0.00240  0.00180  0.00300    654     2898.37  supramarginal
+  18        8.890  159392    247.41     -7.2  -53.8   16.0  0.00290  0.00220  0.00360    527     2506.49  isthmuscingulate
+  19        5.196   23027    200.08    -30.6  -29.9  -18.8  0.00930  0.00810  0.01050    456     1854.90  parahippocampal
+  20        6.385   29798    176.38     -9.5   61.8   10.5  0.01870  0.01700  0.02040    294     1269.03  superiorfrontal

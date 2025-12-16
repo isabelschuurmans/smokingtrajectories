@@ -1,0 +1,14 @@
+variable	cluster	n_vertices	mean_area	mean_coefficient	mean_se	top_region1	top_region2	top_region3
+(Intercept)	1	145622	0.574424561518497	0.663651249880895	0.0328265892845019	superiorfrontal (8.16%, 100%)	precentral (7.35%, 100%)	superiorparietal (7.02%, 100%)
+AGEPARENT.x	1	10554	0.587402342123197	-0.00274895763899446	0.000662374553229252	lateraloccipital (47.49%, 84.05%)	fusiform (33.58%, 76.04%)	superiorparietal (9.12%, 9.41%)
+AGEPARENT.x	2	7962	0.564089873243432	-0.00272226674547496	0.000637571107727839	rostralmiddlefrontal (48.76%, 49.36%)	lateralorbitofrontal (19.15%, 35.03%)	parstriangularis (17.45%, 58.36%)
+AGEPARENT.x	3	6393	0.576988375200616	-0.00197553920883574	0.000473369358993683	superiorfrontal (80.12%, 43.12%)	rostralanteriorcingulate (8.49%, 51.67%)	caudalanteriorcingulate (5.33%, 21.21%)
+AGEPARENT.x	4	2312	0.559958358598079	-0.00159562560016185	0.000432096587630572	middletemporal (54.07%, 24.72%)	superiortemporal (44.20%, 14.88%)	inferiortemporal (1.73%, 0.95%)
+sex	1	145622	0.574424561518497	-0.0706020653357592	0.00527881644769162	superiorfrontal (8.16%, 100%)	precentral (7.35%, 100%)	superiorparietal (7.02%, 100%)
+ethnicity_group	1	19547	0.556525073833053	-0.0280824501827628	0.00634517534041348	lateralorbitofrontal (19.54%, 87.71%)	medialorbitofrontal (12.45%, 86.90%)	superiortemporal (11.38%, 32.40%)
+ethnicity_group	2	10899	0.568945825382714	-0.0314507754651175	0.00754251149483452	lateraloccipital (31.76%, 58.06%)	precuneus (29.13%, 39.81%)	superiorparietal (20.06%, 21.39%)
+ethnicity_group	3	7310	0.56359212821294	-0.0269751487723418	0.00658846827456091	caudalmiddlefrontal (38.91%, 81.40%)	parsopercularis (23.35%, 69.05%)	precentral (11.35%, 7.75%)
+ethnicity_group	4	3025	0.581135472299255	-0.0202172997535383	0.00541475618835385	superiorparietal (56.2%, 16.63%)	precuneus (43.8%, 16.61%)	NA
+ethnicity_group	5	1171	0.58304032226159	-0.0193660180541718	0.00532435242764264	superiorfrontal (100%, 9.86%)	NA	NA
+education_at_intake_groups	1	9511	0.577370575415404	0.020645846597378	0.00544817120359899	superiorfrontal (55.10%, 44.12%)	rostralmiddlefrontal (24.52%, 29.65%)	medialorbitofrontal (10.14%, 34.42%)
+education_at_intake_groups	2	1127	0.599092881186723	0.0100555104206001	0.00268915209947311	superiortemporal (56.7%, 9.30%)	insula (43.3%, 9.59%)	NA
