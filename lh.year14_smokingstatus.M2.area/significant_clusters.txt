@@ -1,0 +1,11 @@
+variable	cluster	n_vertices	mean_area	mean_coefficient	mean_se	top_region1	top_region2	top_region3
+(Intercept)	1	145536	0.576497196382555	0.701890757642629	0.035604865178839	superiorfrontal (8.37%, 100%)	precentral (7.38%, 100%)	superiorparietal (7.18%, 100%)
+AGEPARENT.x	1	13622	0.574615626516132	-0.00258460056284788	0.000629892213611794	rostralmiddlefrontal (42.19%, 79.35%)	superiorfrontal (37.40%, 41.83%)	parstriangularis (7.95%, 52.93%)
+AGEPARENT.x	2	11910	0.592729202687191	-0.00271648010908564	0.000652956788497625	lateraloccipital (42.59%, 79.53%)	fusiform (30.54%, 77.15%)	lingual (10.74%, 30.42%)
+AGEPARENT.x	3	2239	0.593825972355139	-0.00202318851697929	0.000508380543181961	superiortemporal (55.74%, 17.16%)	middletemporal (44.26%, 22.26%)	NA
+AGEPARENT.x	4	2456	0.575082215438277	-0.00163782390962842	0.000456354644205759	superiortemporal (62.38%, 21.07%)	supramarginal (34.12%, 9.74%)	bankssts (3.38%, 3.88%)
+AGEPARENT.x	5	1077	0.579059574721674	-0.00174260445733831	0.000494822518598027	lateralorbitofrontal (85.89%, 22.09%)	medialorbitofrontal (9.56%, 3.88%)	insula (4.55%, 0.94%)
+AGEPARENT.x	6	645	0.550742143801364	-0.00158002579263448	0.000439151965330766	precuneus (67.44%, 5.95%)	superiorparietal (32.56%, 2.01%)	NA
+sex	1	145536	0.576497196382555	-0.0687060714667652	0.00522010794640277	superiorfrontal (8.37%, 100%)	precentral (7.38%, 100%)	superiorparietal (7.18%, 100%)
+ethnicity_group	1	33835	0.590778999530435	-0.0379587998947323	0.00843339307580924	superiorparietal (22.52%, 72.88%)	precuneus (16.96%, 78.50%)	inferiortemporal (11.54%, 88.43%)
+ethnicity_group	2	33464	0.572196660567992	-0.0285938599319953	0.00646192103601885	superiorfrontal (15.48%, 42.53%)	lateralorbitofrontal (12.16%, 97.16%)	caudalmiddlefrontal (8.99%, 80.51%)

@@ -1,5 +1,5 @@
 variable	cluster	n_vertices	mean_area	mean_coefficient	mean_se	top_region1	top_region2	top_region3
-(Intercept)	1	146660	0.579508658991213	0.636618637167386	0.036179974570165	superiorfrontal (8.30%, 100%)	precentral (7.32%, 100%)	superiorparietal (7.13%, 100%)
-packyears	1	875	0.570492247868515	-0.00158318614547274	0.000430345793021843	parsopercularis (44.23%, 12.41%)	caudalmiddlefrontal (32.69%, 7.66%)	rostralmiddlefrontal (20.69%, 2.50%)
-AGEPARENT.x	1	945	0.606214461087627	0.00191750301925278	0.000460421083964378	precentral (83.49%, 7.35%)	postcentral (16.51%, 1.64%)	NA
-sex	1	146555	0.579528705082265	-0.0658796242145715	0.00745086742668682	superiorfrontal (8.31%, 100%)	precentral (7.33%, 100%)	superiorparietal (7.13%, 100%)
+(Intercept)	1	146660	0.57924046698334	0.635825956946288	0.0361619593148164	superiorfrontal (8.30%, 100%)	precentral (7.32%, 100%)	superiorparietal (7.13%, 100%)
+packyears	1	1130	0.591403580681588	-0.00159859788383613	0.000443528353445751	parsopercularis (65.22%, 23.63%)	caudalmiddlefrontal (16.46%, 4.98%)	rostralmiddlefrontal (16.11%, 2.51%)
+AGEPARENT.x	1	937	0.605942225847142	0.00190731461717486	0.000459854191692453	precentral (83.78%, 7.31%)	postcentral (16.22%, 1.60%)	NA
+sex	1	146530	0.579256804514712	-0.065712047909228	0.00746618562531737	superiorfrontal (8.31%, 100%)	precentral (7.33%, 100%)	superiorparietal (7.14%, 100%)

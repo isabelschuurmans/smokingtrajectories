@@ -6,4 +6,5 @@ stack_number	stack_name
 5	bmi
 6	ethnicity_group
 7	INCOME_group
-8	education_at_intake_groups
+8	education_at_intake_groups2
+9	education_at_intake_groups3

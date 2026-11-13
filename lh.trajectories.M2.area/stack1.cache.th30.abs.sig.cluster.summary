@@ -1,7 +1,7 @@
 # Cluster Growing Summary (mri_surfcluster)
 # $Id: mri_surfcluster.c,v 1.57.2.3 2016/11/17 18:19:42 zkaufman Exp $
 # $Id: mrisurf.c,v 1.781.2.6 2016/12/27 16:47:14 zkaufman Exp $
-# CreationTime 2025/12/15-17:03:51-GMT
+# CreationTime 2026/11/12-13:18:48-GMT
 # cmdline mri_surfcluster.bin --in /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack1.p.mgh --csd /mnt/appl/tools/freesurfer/6.0.0/average/mult-comp-cor/fsaverage/lh/cortex/fwhm23/abs/th30/mc-z.csd --cwsig /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack1.cache.th30.abs.sig.cluster.mgh --vwsig /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack1.cache.th30.abs.sig.voxel.mgh --sum /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack1.cache.th30.abs.sig.cluster.summary --ocn /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack1.cache.th30.abs.sig.ocn.mgh --oannot /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack1.cache.th30.abs.sig.ocn.annot --annot aparc --cwpvalthresh 0.025 --o /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack1.cache.th30.abs.sig.masked.mgh --no-fixmni --surf white --mask /home/r042647/SmokingTraj/lh.trajectories.M2.area/finalMask.mgh 
 # cwd /home/r042647/SmokingTraj
 # sysname  Linux
@@ -19,8 +19,8 @@
 # group_avg_vtxarea_loaded 1
 # annot aparc
 # SUBJECTS_DIR /mnt/data/genr/mrdata/GenR_parent/bids/derivatives/freesurfer/6.0.0/qdecr/
-# SearchSpace_mm2 74848.1
-# SearchSpace_vtx 145531
+# SearchSpace_mm2 74851.5
+# SearchSpace_vtx 145537
 # Bonferroni 0
 # Minimum Threshold 3
 # Maximum Threshold infinity
@@ -33,10 +33,10 @@
 # CSD simtype  null-z
 # CSD contrast NA
 # CSD confint  90.000000
-# Overall max 238.967 at vertex 25420
+# Overall max 260.126 at vertex 67847
 # Overall min 0 at vertex 8
 # NClusters          1
 # FixMNI = 0
 # 
 # ClusterNo  Max   VtxMax   Size(mm^2)  MNIX   MNIY   MNIZ    CWP    CWPLow    CWPHi   NVtxs    WghtVtx   Annot
-   1      238.967   25420  74847.40    -34.9   12.9  -38.1  0.00010  0.00000  0.00020  145529  12542547.00  temporalpole
+   1      260.126   67847  74851.16     -8.7   47.7  -20.6  0.00010  0.00000  0.00020  145536  13158272.00  medialorbitofrontal

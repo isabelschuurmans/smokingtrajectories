@@ -1,5 +1,7 @@
 variable	cluster	n_vertices	mean_area	mean_coefficient	mean_se	top_region1	top_region2	top_region3
-(Intercept)	1	146660	0.579508658991213	0.617400396532257	0.0491019891865882	superiorfrontal (8.30%, 100%)	precentral (7.32%, 100%)	superiorparietal (7.13%, 100%)
-AGEPARENT.x	1	1126	0.595115258584201	-0.00262450867396205	0.000703721250612934	superiorfrontal (100%, 9.25%)	NA	NA
-sex	1	146326	0.579355554543766	-0.065450107100448	0.00767180093906814	superiorfrontal (8.32%, 100%)	precentral (7.34%, 100%)	superiorparietal (7.15%, 100%)
-education_at_intake_groups	1	4946	0.591371177465589	0.0384000640364761	0.00976978010592889	rostralmiddlefrontal (82.88%, 56.59%)	superiorfrontal (15.83%, 6.43%)	caudalmiddlefrontal (0.89%, 1.18%)
+(Intercept)	1	146660	0.57924046698334	0.649699122507974	0.0523962270864473	superiorfrontal (8.30%, 100%)	precentral (7.32%, 100%)	superiorparietal (7.13%, 100%)
+AGEPARENT.x	1	1339	0.580021750790493	-0.00358059148191488	0.000982383251137325	lateraloccipital (100%, 20.99%)	NA	NA
+AGEPARENT.x	2	1401	0.585436586502917	-0.00268784947866184	0.000709216983481673	superiorfrontal (100%, 11.5%)	NA	NA
+sex	1	146278	0.579179783588519	-0.0653832619206226	0.00767415443471449	superiorfrontal (8.33%, 100.0%)	precentral (7.34%, 100.0%)	superiorparietal (7.07%, 98.9%)
+ethnicity_group	1	1036	0.566243386589448	-0.0492072765567991	0.013648858406261	superiorparietal (100%, 9.91%)	NA	NA
+ethnicity_group	2	470	0.529132403409986	-0.0413696546741623	0.0115344694617422	medialorbitofrontal (59.36%, 10.52%)	frontalpole (28.30%, 48.90%)	superiorfrontal (12.34%, 0.48%)
