@@ -1,0 +1,6 @@
+variable	cluster	n_vertices	mean_area	mean_coefficient	mean_se	top_region1	top_region2	top_region3
+(Intercept)	1	145622	0.574277899722101	0.649212846588156	0.0248800566708024	superiorfrontal (8.16%, 100%)	precentral (7.35%, 100%)	superiorparietal (7.02%, 100%)
+AGEPARENT.x	1	2867	0.549019252550431	-0.00263176331218439	0.000692554175014256	rostralmiddlefrontal (63.83%, 23.27%)	parsorbitalis (19.92%, 60.36%)	parstriangularis (15.84%, 19.08%)
+AGEPARENT.x	2	2803	0.611418972089283	-0.00225319578473483	0.000600799208458681	fusiform (63.50%, 38.19%)	lateraloccipital (33.86%, 15.91%)	lingual (2.25%, 1.62%)
+AGEPARENT.x	3	540	0.597263827622795	-0.00252123068354127	0.00071358868056753	lateraloccipital (100%, 9.06%)	NA	NA
+sex	1	145622	0.574277899722101	-0.0703913988957918	0.00502807008161244	superiorfrontal (8.16%, 100%)	precentral (7.35%, 100%)	superiorparietal (7.02%, 100%)

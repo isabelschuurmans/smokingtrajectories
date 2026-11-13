@@ -1,7 +1,7 @@
 # Cluster Growing Summary (mri_surfcluster)
 # $Id: mri_surfcluster.c,v 1.57.2.3 2016/11/17 18:19:42 zkaufman Exp $
 # $Id: mrisurf.c,v 1.781.2.6 2016/12/27 16:47:14 zkaufman Exp $
-# CreationTime 2025/12/15-16:51:10-GMT
+# CreationTime 2026/11/10-19:37:26-GMT
 # cmdline mri_surfcluster.bin --in /home/r042647/SmokingTraj/rh.trajectories.M1.thickness/stack5.p.mgh --csd /mnt/appl/tools/freesurfer/6.0.0/average/mult-comp-cor/fsaverage/rh/cortex/fwhm14/abs/th30/mc-z.csd --cwsig /home/r042647/SmokingTraj/rh.trajectories.M1.thickness/stack5.cache.th30.abs.sig.cluster.mgh --vwsig /home/r042647/SmokingTraj/rh.trajectories.M1.thickness/stack5.cache.th30.abs.sig.voxel.mgh --sum /home/r042647/SmokingTraj/rh.trajectories.M1.thickness/stack5.cache.th30.abs.sig.cluster.summary --ocn /home/r042647/SmokingTraj/rh.trajectories.M1.thickness/stack5.cache.th30.abs.sig.ocn.mgh --oannot /home/r042647/SmokingTraj/rh.trajectories.M1.thickness/stack5.cache.th30.abs.sig.ocn.annot --annot aparc --cwpvalthresh 0.025 --o /home/r042647/SmokingTraj/rh.trajectories.M1.thickness/stack5.cache.th30.abs.sig.masked.mgh --no-fixmni --surf white --mask /home/r042647/SmokingTraj/rh.trajectories.M1.thickness/finalMask.mgh 
 # cwd /home/r042647/SmokingTraj
 # sysname  Linux
@@ -18,7 +18,7 @@
 # group_avg_surface_area 82167.6
 # group_avg_vtxarea_loaded 1
 # annot aparc
-# SUBJECTS_DIR /mnt/data/genr/mrdata/GenR_parent/bids/derivatives/freesurfer/6.0.0/qdecr/
+# SUBJECTS_DIR /mnt/appl/tools/freesurfer/6.0.0//subjects
 # SearchSpace_mm2 74595.6
 # SearchSpace_vtx 145437
 # Bonferroni 0
@@ -33,15 +33,15 @@
 # CSD simtype  null-z
 # CSD contrast NA
 # CSD confint  90.000000
-# Overall max 6.29915 at vertex 74521
+# Overall max 5.59774 at vertex 123470
 # Overall min 0 at vertex 10
 # NClusters          6
 # FixMNI = 0
 # 
 # ClusterNo  Max   VtxMax   Size(mm^2)  MNIX   MNIY   MNIZ    CWP    CWPLow    CWPHi   NVtxs    WghtVtx   Annot
-   1        6.299   74521    497.39     35.7  -83.4   16.7  0.00010  0.00000  0.00020    756     3089.73  inferiorparietal
-   2        4.894   80053    466.43      9.8   31.5   32.8  0.00010  0.00000  0.00020    899     3277.71  superiorfrontal
-   3        4.705   67624    247.63     54.0    5.6    3.9  0.00240  0.00180  0.00300    490     1776.75  precentral
-   4        4.739  125105    229.32     10.1   56.4    4.3  0.00420  0.00340  0.00500    283     1067.08  superiorfrontal
-   5        5.673   81080    193.42     12.0   -2.3   44.0  0.01200  0.01060  0.01340    507     2027.37  superiorfrontal
-   6        3.659   65682    168.73     27.0   47.8    4.0  0.02120  0.01940  0.02310    260      854.65  rostralmiddlefrontal
+   1        4.278   49726    454.63      8.9   31.3   33.8  0.00010  0.00000  0.00020    873     3092.16  superiorfrontal
+   2        5.448   74520    197.16     35.9  -83.8   16.4  0.01080  0.00950  0.01210    317     1284.35  inferiorparietal
+   3        3.945   60834    195.36     10.4   56.8    3.8  0.01170  0.01030  0.01310    245      841.96  superiorfrontal
+   4        4.101   67625    183.45     53.5    5.6    4.7  0.01510  0.01350  0.01670    374     1277.66  parsopercularis
+   5        4.085   65692    178.29     28.7   48.6    2.4  0.01730  0.01560  0.01900    284      993.84  rostralmiddlefrontal
+   6        5.598  123470    170.99     12.3   -1.9   44.5  0.02030  0.01850  0.02210    453     1762.80  superiorfrontal

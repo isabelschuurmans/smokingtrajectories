@@ -1,7 +1,7 @@
 # Cluster Growing Summary (mri_surfcluster)
 # $Id: mri_surfcluster.c,v 1.57.2.3 2016/11/17 18:19:42 zkaufman Exp $
 # $Id: mrisurf.c,v 1.781.2.6 2016/12/27 16:47:14 zkaufman Exp $
-# CreationTime 2025/12/15-17:15:17-GMT
+# CreationTime 2026/11/10-20:35:27-GMT
 # cmdline mri_surfcluster.bin --in /home/r042647/SmokingTraj/rh.abstinence.M2.area/stack6.p.mgh --csd /mnt/appl/tools/freesurfer/6.0.0/average/mult-comp-cor/fsaverage/rh/cortex/fwhm23/abs/th30/mc-z.csd --cwsig /home/r042647/SmokingTraj/rh.abstinence.M2.area/stack6.cache.th30.abs.sig.cluster.mgh --vwsig /home/r042647/SmokingTraj/rh.abstinence.M2.area/stack6.cache.th30.abs.sig.voxel.mgh --sum /home/r042647/SmokingTraj/rh.abstinence.M2.area/stack6.cache.th30.abs.sig.cluster.summary --ocn /home/r042647/SmokingTraj/rh.abstinence.M2.area/stack6.cache.th30.abs.sig.ocn.mgh --oannot /home/r042647/SmokingTraj/rh.abstinence.M2.area/stack6.cache.th30.abs.sig.ocn.annot --annot aparc --cwpvalthresh 0.025 --o /home/r042647/SmokingTraj/rh.abstinence.M2.area/stack6.cache.th30.abs.sig.masked.mgh --no-fixmni --surf white --mask /home/r042647/SmokingTraj/rh.abstinence.M2.area/finalMask.mgh 
 # cwd /home/r042647/SmokingTraj
 # sysname  Linux
@@ -18,9 +18,9 @@
 # group_avg_surface_area 82167.6
 # group_avg_vtxarea_loaded 1
 # annot aparc
-# SUBJECTS_DIR /mnt/data/genr/mrdata/GenR_parent/bids/derivatives/freesurfer/6.0.0/qdecr/
-# SearchSpace_mm2 75056.8
-# SearchSpace_vtx 146600
+# SUBJECTS_DIR /mnt/appl/tools/freesurfer/6.0.0//subjects
+# SearchSpace_mm2 75057.2
+# SearchSpace_vtx 146601
 # Bonferroni 0
 # Minimum Threshold 3
 # Maximum Threshold infinity
@@ -33,10 +33,14 @@
 # CSD simtype  null-z
 # CSD contrast NA
 # CSD confint  90.000000
-# Overall max 4.39904 at vertex 134915
+# Overall max 5.65563 at vertex 94165
 # Overall min 0 at vertex 10
-# NClusters          1
+# NClusters          5
 # FixMNI = 0
 # 
 # ClusterNo  Max   VtxMax   Size(mm^2)  MNIX   MNIY   MNIZ    CWP    CWPLow    CWPHi   NVtxs    WghtVtx   Annot
-   1        4.399  134915    388.15      6.0   21.7  -21.7  0.00850  0.00730  0.00970    794     2847.37  medialorbitofrontal
+   1        5.656   94165   2465.78      9.4   55.7   19.0  0.00010  0.00000  0.00020   3547    13144.13  superiorfrontal
+   2        5.572  125215    848.50      8.2   36.4  -22.0  0.00010  0.00000  0.00020   1729     6557.58  medialorbitofrontal
+   3        5.041   17333    640.43     45.1   15.7  -28.1  0.00040  0.00020  0.00070   1048     3814.66  superiortemporal
+   4        4.024   36663    403.22     17.8  -58.3   63.1  0.00730  0.00620  0.00840    835     2903.76  superiorparietal
+   5        4.620   98596    388.53     10.4  -84.2   37.0  0.00850  0.00730  0.00970    620     2246.27  superiorparietal
