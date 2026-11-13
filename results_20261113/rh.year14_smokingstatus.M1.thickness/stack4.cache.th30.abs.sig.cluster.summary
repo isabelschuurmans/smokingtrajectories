@@ -1,0 +1,48 @@
+# Cluster Growing Summary (mri_surfcluster)
+# $Id: mri_surfcluster.c,v 1.57.2.3 2016/11/17 18:19:42 zkaufman Exp $
+# $Id: mrisurf.c,v 1.781.2.6 2016/12/27 16:47:14 zkaufman Exp $
+# CreationTime 2026/11/10-20:54:12-GMT
+# cmdline mri_surfcluster.bin --in /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack4.p.mgh --csd /mnt/appl/tools/freesurfer/6.0.0/average/mult-comp-cor/fsaverage/rh/cortex/fwhm14/abs/th30/mc-z.csd --cwsig /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack4.cache.th30.abs.sig.cluster.mgh --vwsig /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack4.cache.th30.abs.sig.voxel.mgh --sum /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack4.cache.th30.abs.sig.cluster.summary --ocn /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack4.cache.th30.abs.sig.ocn.mgh --oannot /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack4.cache.th30.abs.sig.ocn.annot --annot aparc --cwpvalthresh 0.025 --o /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack4.cache.th30.abs.sig.masked.mgh --no-fixmni --surf white --mask /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/finalMask.mgh 
+# cwd /home/r042647/SmokingTraj
+# sysname  Linux
+# hostname kpsy0001l002
+# machine  x86_64
+# FixVertexAreaFlag 1
+# FixSurfClusterArea 1
+# 
+# Input      /home/r042647/SmokingTraj/rh.year14_smokingstatus.M1.thickness/stack4.p.mgh
+# Frame Number      0
+# srcsubj fsaverage
+# hemi rh
+# surface white
+# group_avg_surface_area 82167.6
+# group_avg_vtxarea_loaded 1
+# annot aparc
+# SUBJECTS_DIR /mnt/appl/tools/freesurfer/6.0.0//subjects
+# SearchSpace_mm2 74595.6
+# SearchSpace_vtx 145437
+# Bonferroni 0
+# Minimum Threshold 3
+# Maximum Threshold infinity
+# Threshold Sign    abs
+# AdjustThreshWhenOneTail 1
+# CW PValue Threshold: 0.025 
+# Area Threshold    0 mm^2
+# CSD thresh  3.000000
+# CSD nreps    10000
+# CSD simtype  null-z
+# CSD contrast NA
+# CSD confint  90.000000
+# Overall max 10.3898 at vertex 79927
+# Overall min 0 at vertex 10
+# NClusters          7
+# FixMNI = 0
+# 
+# ClusterNo  Max   VtxMax   Size(mm^2)  MNIX   MNIY   MNIZ    CWP    CWPLow    CWPHi   NVtxs    WghtVtx   Annot
+   1        8.726  129218   1260.50      7.0   19.8   58.7  0.00010  0.00000  0.00020   2323    10794.15  superiorfrontal
+   2        9.815   33944   1210.62     32.4  -23.1   16.2  0.00010  0.00000  0.00020   3682    19202.58  insula
+   3        7.598   10015   1082.95     16.7  -96.7  -12.0  0.00010  0.00000  0.00020   1322     5906.93  lateraloccipital
+   4       10.390   79927    305.78     44.4  -28.4   -6.0  0.00030  0.00010  0.00050    862     4690.48  superiortemporal
+   5        4.700  131382    285.12     42.8   29.0   21.5  0.00050  0.00020  0.00080    510     1919.42  rostralmiddlefrontal
+   6        4.779   29210    276.74     52.1   31.4   -0.9  0.00070  0.00040  0.00100    511     1847.75  parstriangularis
+   7        5.377  103778    247.20     58.2    6.8   24.9  0.00240  0.00180  0.00300    561     2263.78  precentral
