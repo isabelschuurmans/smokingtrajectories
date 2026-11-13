@@ -1,0 +1,46 @@
+# Cluster Growing Summary (mri_surfcluster)
+# $Id: mri_surfcluster.c,v 1.57.2.3 2016/11/17 18:19:42 zkaufman Exp $
+# $Id: mrisurf.c,v 1.781.2.6 2016/12/27 16:47:14 zkaufman Exp $
+# CreationTime 2026/11/12-13:19:03-GMT
+# cmdline mri_surfcluster.bin --in /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack6.p.mgh --csd /mnt/appl/tools/freesurfer/6.0.0/average/mult-comp-cor/fsaverage/lh/cortex/fwhm23/abs/th30/mc-z.csd --cwsig /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack6.cache.th30.abs.sig.cluster.mgh --vwsig /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack6.cache.th30.abs.sig.voxel.mgh --sum /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack6.cache.th30.abs.sig.cluster.summary --ocn /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack6.cache.th30.abs.sig.ocn.mgh --oannot /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack6.cache.th30.abs.sig.ocn.annot --annot aparc --cwpvalthresh 0.025 --o /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack6.cache.th30.abs.sig.masked.mgh --no-fixmni --surf white --mask /home/r042647/SmokingTraj/lh.trajectories.M2.area/finalMask.mgh 
+# cwd /home/r042647/SmokingTraj
+# sysname  Linux
+# hostname kpsy0001l002
+# machine  x86_64
+# FixVertexAreaFlag 1
+# FixSurfClusterArea 1
+# 
+# Input      /home/r042647/SmokingTraj/lh.trajectories.M2.area/stack6.p.mgh
+# Frame Number      0
+# srcsubj fsaverage
+# hemi lh
+# surface white
+# group_avg_surface_area 82220
+# group_avg_vtxarea_loaded 1
+# annot aparc
+# SUBJECTS_DIR /mnt/data/genr/mrdata/GenR_parent/bids/derivatives/freesurfer/6.0.0/qdecr/
+# SearchSpace_mm2 74851.5
+# SearchSpace_vtx 145537
+# Bonferroni 0
+# Minimum Threshold 3
+# Maximum Threshold infinity
+# Threshold Sign    abs
+# AdjustThreshWhenOneTail 1
+# CW PValue Threshold: 0.025 
+# Area Threshold    0 mm^2
+# CSD thresh  3.000000
+# CSD nreps    10000
+# CSD simtype  null-z
+# CSD contrast NA
+# CSD confint  90.000000
+# Overall max 9.63805 at vertex 131372
+# Overall min 0 at vertex 8
+# NClusters          5
+# FixMNI = 0
+# 
+# ClusterNo  Max   VtxMax   Size(mm^2)  MNIX   MNIY   MNIZ    CWP    CWPLow    CWPHi   NVtxs    WghtVtx   Annot
+   1        9.638  131372   8694.05     -7.8   61.5   19.1  0.00010  0.00000  0.00020  13810    64237.45  superiorfrontal
+   2        8.406  114437   8448.73    -38.7  -35.2  -23.2  0.00010  0.00000  0.00020  12185    56875.31  fusiform
+   3        6.110  136780   1232.71    -49.0   -8.6  -20.4  0.00010  0.00000  0.00020   2290     9593.79  superiortemporal
+   4        4.688  156514   1119.98    -64.4  -28.3    1.3  0.00010  0.00000  0.00020   2457     8638.12  superiortemporal
+   5        4.317   74999    551.79    -21.8   11.5  -18.6  0.00100  0.00060  0.00140   1208     4106.71  lateralorbitofrontal
